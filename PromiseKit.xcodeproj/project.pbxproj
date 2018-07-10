@@ -59,6 +59,20 @@
 		63CB7F811D46B25A00F4D755 /* SLRequest+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 638933621AAF65050078F9B6 /* SLRequest+PromiseKit.m */; };
 		63CB7F891D46B25A00F4D755 /* initializers.spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 638933DA1AAFC3B40078F9B6 /* initializers.spec.m */; };
 		63CB7F8A1D46B25A00F4D755 /* PMKPromise.test.m in Sources */ = {isa = PBXBuildFile; fileRef = 638933DB1AAFC3B40078F9B6 /* PMKPromise.test.m */; };
+		9212C12820F4F0CC009799F0 /* CALayer+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 638933361AAF65050078F9B6 /* CALayer+PromiseKit.m */; };
+		9212C12920F4F0CC009799F0 /* NSNotificationCenter+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 638933461AAF65050078F9B6 /* NSNotificationCenter+PromiseKit.m */; };
+		9212C12A20F4F0CC009799F0 /* NSURLConnection+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389334A1AAF65050078F9B6 /* NSURLConnection+PromiseKit.m */; };
+		9212C12B20F4F0CC009799F0 /* UIActionSheet+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 638933641AAF65050078F9B6 /* UIActionSheet+PromiseKit.m */; };
+		9212C12C20F4F0CC009799F0 /* UIAlertView+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 638933661AAF65050078F9B6 /* UIAlertView+PromiseKit.m */; };
+		9212C12D20F4F0CC009799F0 /* UIView+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 638933681AAF65050078F9B6 /* UIView+PromiseKit.m */; };
+		9212C12E20F4F0CC009799F0 /* UIViewController+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389336A1AAF65050078F9B6 /* UIViewController+PromiseKit.m */; };
+		9212C12F20F4F101009799F0 /* CALayer+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 638933351AAF65050078F9B6 /* CALayer+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9212C13020F4F101009799F0 /* NSNotificationCenter+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 638933451AAF65050078F9B6 /* NSNotificationCenter+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9212C13120F4F101009799F0 /* NSURLConnection+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 638933491AAF65050078F9B6 /* NSURLConnection+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9212C13220F4F101009799F0 /* UIActionSheet+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 638933631AAF65050078F9B6 /* UIActionSheet+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9212C13320F4F101009799F0 /* UIAlertView+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 638933651AAF65050078F9B6 /* UIAlertView+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9212C13420F4F101009799F0 /* UIView+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 638933671AAF65050078F9B6 /* UIView+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9212C13520F4F101009799F0 /* UIViewController+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 638933691AAF65050078F9B6 /* UIViewController+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,8 +338,15 @@
 				63A2EE511D51267E003BED41 /* Promise+Hang.h in Headers */,
 				63A2EE521D51267E003BED41 /* Promise+Join.h in Headers */,
 				63A2EE531D51267E003BED41 /* Promise+Pause.h in Headers */,
+				9212C13020F4F101009799F0 /* NSNotificationCenter+PromiseKit.h in Headers */,
 				63A2EE541D51267E003BED41 /* Promise+Until.h in Headers */,
 				63A2EE551D51267E003BED41 /* Promise+When.h in Headers */,
+				9212C13220F4F101009799F0 /* UIActionSheet+PromiseKit.h in Headers */,
+				9212C12F20F4F101009799F0 /* CALayer+PromiseKit.h in Headers */,
+				9212C13120F4F101009799F0 /* NSURLConnection+PromiseKit.h in Headers */,
+				9212C13520F4F101009799F0 /* UIViewController+PromiseKit.h in Headers */,
+				9212C13420F4F101009799F0 /* UIView+PromiseKit.h in Headers */,
+				9212C13320F4F101009799F0 /* UIAlertView+PromiseKit.h in Headers */,
 				63A2EE561D51267E003BED41 /* Promise+Zalgo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +497,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9212C12820F4F0CC009799F0 /* CALayer+PromiseKit.m in Sources */,
+				9212C12920F4F0CC009799F0 /* NSNotificationCenter+PromiseKit.m in Sources */,
+				9212C12A20F4F0CC009799F0 /* NSURLConnection+PromiseKit.m in Sources */,
+				9212C12B20F4F0CC009799F0 /* UIActionSheet+PromiseKit.m in Sources */,
+				9212C12C20F4F0CC009799F0 /* UIAlertView+PromiseKit.m in Sources */,
+				9212C12D20F4F0CC009799F0 /* UIView+PromiseKit.m in Sources */,
+				9212C12E20F4F0CC009799F0 /* UIViewController+PromiseKit.m in Sources */,
 				63A2EE451D51267E003BED41 /* PMKPromise.m in Sources */,
 				63A2EE461D51267E003BED41 /* PMKPromise+Hang.m in Sources */,
 				63A2EE471D51267E003BED41 /* PMKPromise+Join.m in Sources */,
