@@ -1,4 +1,9 @@
 #import <PromiseKit/Promise.h>
+#define PMK_UIVIEWCONTROLLER
+#define PMK_UIVIEW
+#define PMK_UIALERTVIEW
+#define PMK_UIACTIONSHEET
+#define PMK_NSNOTIFICATIONCENTER
 
 #if __has_include(<PromiseKit/Promise+When.h>)
 #import <PromiseKit/Promise+When.h>

@@ -98,7 +98,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6384FD1019EECD2400613CBF /* PromiseKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PromiseKit.playground; sourceTree = "<group>"; };
+		6384FD1019EECD2400613CBF /* PromiseKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PromiseKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		638933311AAF65050078F9B6 /* ACAccountStore+PromiseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ACAccountStore+PromiseKit.h"; path = "Sources/ACAccountStore+PromiseKit.h"; sourceTree = "<group>"; };
 		638933321AAF65050078F9B6 /* ACAccountStore+PromiseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ACAccountStore+PromiseKit.m"; path = "Sources/ACAccountStore+PromiseKit.m"; sourceTree = "<group>"; };
 		638933331AAF65050078F9B6 /* AVAudioSession+PromiseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVAudioSession+PromiseKit.h"; path = "Sources/AVAudioSession+PromiseKit.h"; sourceTree = "<group>"; };
