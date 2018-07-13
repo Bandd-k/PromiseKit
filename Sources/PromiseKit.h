@@ -80,6 +80,7 @@
 #import <PromiseKit/UIViewController+PromiseKit.h>
 #endif
 
+#import <PromiseKit/CALayer+PromiseKit.h>
 
 #ifndef PMK_NO_UNPREFIXATION
 // I used a typedef but it broke the tests, turns out typedefs are new
